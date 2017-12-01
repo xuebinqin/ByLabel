@@ -20,3 +20,36 @@ RUNNING
 ====
 
 Go to the root folder *ground-truth-labeling* and run: ./GDTL
+
+ANNOTATION SETTINGS
+====
+
+Go to the root floder and open the GDTL.cfg as follows:</br>
+multi_class 0  #set the number of classes in the annotation task: 0 two classes, 1 multiple classes</br>
+source_type 1  #set the input of annotation: 1 images, 2 videos</br>
+input_path ./Test/images #set the folder name of to-be-annotated images. If souce_type is 2, the full path and name of the video has to be set here</br>
+output_path ../Test/annotation #set the output path, if folder annotation does not exit, the tool will create a new folder named as annotation. You can assign any name you want.</br>
+simple_shape 1 </br>
+start_idx 0 </br>
+
+ANNOTATION CONTROL KEY
+====
+The main idea of this annotation tool is to label boundaries by selecting detected edge fragments.</br>
+
+Mouse left button click
+-
+
+Mouse middle button click
+-
+
+a
+-
+
+f
+-
+
+b
+-
+
+e
+-
