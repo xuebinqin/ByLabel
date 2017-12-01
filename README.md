@@ -1,10 +1,13 @@
 # ground-truth-labeling
 This is a tool for image and video annotation.
 
-#INSTALLATION
+INSTALLATION
+====
 
-Just Download it and go to the root folder<ground-truth-labeling>. 
+Just Download the code: git clone https://github.com/NathanUA/ground-truth-labeling.git
+go to the root folder <ground-truth-labeling>
 
-#RUNNING
+RUNNING
+====
 
 ./GDTL
