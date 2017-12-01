@@ -60,3 +60,16 @@ Press 'e' to enable or disable the edge fragments showing.
 -
 Click mouse middle button to finish the closed boundary labeling.
 
+CONTACTS
+====
+
+Xuebin Qin
+----
+Department of Computing Science
+University of Alberta
+Edmonton, AB, Canada, T6G 2E8
+
+Email:
+xuebin@ualberta.ca
+xuebinua@gmail.com
+
