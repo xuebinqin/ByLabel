@@ -54,7 +54,7 @@ If an edge fragment is not split, move your mouse cursor over the postion where 
 
 (5) e
 -
-Some times detected edge fragments are too many. Press 'e' to enable or disable the edge fragments showing.
+Press 'e' to enable or disable the edge fragments showing.
 
 (6) MOUSE MIDDLE BUTTON CLICK
 -
