@@ -36,20 +36,27 @@ ANNOTATION CONTROL KEY
 ====
 The main idea of this annotation tool is to label boundaries by selecting detected edge fragments.</br>
 
-MOUSE LEFT BUTTON CLICK
+(1) MOUSE LEFT BUTTON CLICK
 -
+Move your mouse cursor over the target edge fragment and click left button to select it.
 
-MOUSE MIDDLE BUTTON CLICK
+(2) a
 -
+If some boundary parts are not detected successfully, users can press 'a' to change selecting mode to drawing mode. Press 'a' again to change it back.
 
-a
+(3) f
 -
+Press 'f' to undo the last selection or drawing.
 
-f
+(4) b
 -
+If an edge fragment is not split, move your mouse cursor over the postion where you want to split and press 'b'.
 
-b
+(5) e
 -
+Some times detected edge fragments are too many. Press 'e' to enable or disable the edge fragments showing.
 
-e
+(6) MOUSE MIDDLE BUTTON CLICK
 -
+Click mouse middle button to finish the closed boundary labeling.
+
