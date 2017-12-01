@@ -65,11 +65,11 @@ CONTACTS
 
 Xuebin Qin
 ----
-Department of Computing Science
-University of Alberta
-Edmonton, AB, Canada, T6G 2E8
+Department of Computing Science</br>
+University of Alberta</br>
+Edmonton, AB, Canada, T6G 2E8</br>
 
-Email:
-xuebin@ualberta.ca
+Email:</br>
+xuebin@ualberta.ca</br>
 xuebinua@gmail.com
 
