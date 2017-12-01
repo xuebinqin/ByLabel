@@ -1,5 +1,5 @@
 # ByLabel: A Boundary Based Semi-Automatic Image Annotation Tool
-This is a tool for image and video annotation. Currently, it can only run 64bit Ubuntu OS.</br>
+This is a tool for image and video annotation. Currently, it can only run on 64bit Ubuntu OS.</br>
 
 USED LIBRARIES
 ====
