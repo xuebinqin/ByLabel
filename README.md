@@ -36,10 +36,10 @@ ANNOTATION CONTROL KEY
 ====
 The main idea of this annotation tool is to label boundaries by selecting detected edge fragments.</br>
 
-Mouse left button click
+MOUSE LEFT BUTTON CLICK
 -
 
-Mouse middle button click
+MOUSE MIDDLE BUTTON CLICK
 -
 
 a
