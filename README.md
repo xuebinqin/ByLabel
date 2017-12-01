@@ -50,7 +50,7 @@ Press 'f' to undo the last selection or drawing.
 
 (4) b
 -
-If an edge fragment is not split, move your mouse cursor over the postion where you want to split and press 'b'.
+If an edge fragment was not split successfully, move your mouse cursor over the postion where you want to split and press 'b'.
 
 (5) e
 -
