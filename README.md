@@ -19,4 +19,4 @@ The code has already been compiled.
 RUNNING
 ====
 
-Go to the root folder <ground-truth-labeling> and run: ./GDTL
+Go to the root folder *cd ground-truth-labeling* and run: ./GDTL
