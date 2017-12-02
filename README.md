@@ -17,7 +17,7 @@ INSTALLATION
 Just Download the code: *git clone https://github.com/NathanUA/ground-truth-labeling.git*</br>
 The code has already been compiled.
 
-RUNNING
+RUN
 ====
 
 Go to the root folder *ground-truth-labeling* and run: ./GDTL
