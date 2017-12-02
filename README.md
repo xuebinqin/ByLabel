@@ -3,7 +3,8 @@ This is a tool for image and video annotation. Currently, it can only run on 64b
 
 USED LIBRARIES
 ====
-
+Users do not have to set these libriaries up, since this tool has been compiled with required static libriaries.
+----
 This implementation is based on Opencv 2.4.9(3.1.0), and ubuntu 14.04 64 bit.</br>
 
 The edge detector used here is EdgeDrawing(EDLib.h) which is proposed in 
