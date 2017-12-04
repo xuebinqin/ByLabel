@@ -8,8 +8,8 @@
 
 
 # definitions
-objRRC = bylabel.o
-srcRRC = bylabel.cpp
+objRRC = GDTL.o
+srcRRC = GDTL.cpp
 
 #linker to use
 lnk = g++
@@ -20,16 +20,16 @@ dbg = -g -Wall
 
 # MAKE it happen
 
-all: bylabel
+all: GDTL
 
-bylabel: $(objRRC)
-	$(lnk) $(dbg) -o bylabel $(objRRC) -L lib -Wl,-rpath,'$$ORIGIN/lib' `pkg-config --libs opencv` EDLib.a EDLinesLib.a
+GDTL: $(objRRC)
+	$(lnk) $(dbg) -o GDTL $(objRRC) -L lib -Wl,-rpath,'$$ORIGIN/lib' `pkg-config --libs opencv` EDLib.a EDLinesLib.a
 
-#bylabel: $(objRRC)
-#	$(lnk) $(dbg) -o bylabel $(objRRC) EDLib.a EDLinesLib.a `pkg-config --libs opencv`
+#GDTL: $(objRRC)
+#	$(lnk) $(dbg) -o GDTL $(objRRC) EDLib.a EDLinesLib.a `pkg-config --libs opencv`
 
 $(objRRC): $(srcRRC)
 	$(cc) $(dbg) `pkg-config --cflags opencv` -c $(srcRRC)
 
 clean:
-	@rm -f $(objRRC) bylabel
+	@rm -f $(objRRC) GDTL
