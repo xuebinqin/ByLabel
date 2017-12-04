@@ -253,7 +253,7 @@ int main(/*int argc, char* argv[]*/){//Run Command: "./GDTL [0/1 biclass/multicl
         EdgeMap *map = DetectEdgesByED(srcImg, frame.size().width, frame.size().height, SOBEL_OPERATOR, 25, 8, 1.0);//36 8 1.0//Edge Drawing for edge detection
         vector<vector<Point> > edgeFragments;
         edgeFragments = EdgeFilterBreak(map);//divide edge segments into fragments
-        //saveEFPixelsToTxt(edgeFragments, tmp_txt_EFP);//save edge fragments to txt file
+        saveEFPixelsToTxt(edgeFragments, tmp_txt_EFP);//save edge fragments to txt file
         //---------------Edge/Line segments detection-----------------END
 
 

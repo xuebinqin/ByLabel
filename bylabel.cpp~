@@ -91,7 +91,7 @@ int main(/*int argc, char* argv[]*/){//Run Command: "./GDTL [0/1 biclass/multicl
     //cout<<"==============================================="<<endl;
     cout<<">>>>>>>>>>>>>>>>>>READ CONFIGURES<<<<<<<<<<<<<<<"<<endl;
     cout<<"==============================================="<<endl;
-    ifstream infile("./GDTL.cfg");
+    ifstream infile("./bylabel.cfg");
 
     vector<vector<string> > para_lines;
     string paras;
