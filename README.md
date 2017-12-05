@@ -110,7 +110,7 @@ The folder "annotation" is assigned by users in "bylabel.cfg", other names are a
 
     (2) In a color map, each class is assigned a unique color. The .txt file records the objects' class names and their color code as follows:<br>
 `"2`<br>
-`cup 185 185 175`br>
+`cup 185 185 175`<br>
 `candy 165 185 115"`<br>
 The number in the first line denotes the annotated classes of its' corresponding image.<br>
 
