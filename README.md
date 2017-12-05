@@ -22,44 +22,78 @@ RUN
 
 Go to the root folder *ground-truth-labeling* and run: ./GDTL
 
-ANNOTATION SETTINGS
+ANNOTATION configurations
 ====
 
-Go to the root floder and open the GDTL.cfg as follows:</br>
-`multi_class 0`  #set the number of classes in the annotation task: 0 two classes, 1 multiple classes</br>
-`source_type 1`  #set the input of annotation: 1 images, 2 videos</br>
-`input_path ./Test/images` #set the folder name of to-be-annotated images. If souce_type is 2, the full path and name of the video has to be set here</br>
-`output_path ./Test/annotation` #set the output path, if folder annotation does not exit, the tool will create a new folder named as annotation. You can assign any name you want.</br>
-`simple_shape 1` #if all of your to-be-annotated objects have only one boundary set it to 1, otherwise set it to 0</br>
-`start_idx 0` #neglect first start_idx images or frames. If you annotation encountered some errors which can not be recovered, you can set start_idx to the current image index and restart the tool</br>
+Go to the root folder ByLabel, open bylabel.cfg:<br>
 
-ANNOTATION CONTROL KEY
+1. multi_class     #indicate the number of to-be-annotated classes<br>
+
+    "0"     binary classes annotation.<br>
+
+    "1"     multiple classes annotation.<br>
+
+2. source_type     #indicate the type of to-be-annotated files<br>
+
+    "1"     Images (All formats that supported by OpenCV such as JPG, PNG, BMP, TIF and MPEG).<br>
+
+    "2"     Video (All formats that supported by OpenCV such as MP4 and AVI).<br>
+
+3. input_path     #set the path of source images/video<br>
+
+     If "souce_type" is "1", it should be the folder name of images, such as "./Test/images".<br>
+
+     If "souce_type" is "2", it should be the full path and name of the video, such as "./Test/demo.avi".<br>
+
+4. output_path     #set the path of outputs<br>
+
+     Such as "./Test/annotation". If the folder "annotation" does not exit, the tool will create a new folder named as "annotation".<br>
+
+5. simple_shape     #indicate the shape complexity of to-be-annotated objects<br>
+
+    "0"     Target objects with multiple boundaries.<br>
+
+    "1"     Target objects with single boundary.<br>
+
+6. start_idx     #indicate the starting index of to-be-annotated images<br>
+
+     This is used to neglect the first "start_idx" images/frames.<br>
+
+ANNOTATION Operations
 ====
-The main idea of this annotation tool is to label boundaries by selecting detected edge fragments.</br>
+Mouse and keyboard operations of ByLabel:<br>
 
-(1) MOUSE LEFT BUTTON CLICK
--
-Move your mouse cursor over the target edge fragment and click left button to select it.
+1. MOUSE LEFT BUTTON CLICK<br>
 
-(2) a
--
-If some boundary parts are not detected successfully, users can press 'a' to change selecting mode to drawing mode. Press 'a' again to change it back.
+    Select detected edge fragments or draw control points.<br>
 
-(3) f
--
-Press 'f' to undo the last selection or drawing.
+2. MOUSE MIDDLE BUTTON (MOUSE WHEEL) CLICK<br>
 
-(4) b
--
-If an edge fragment was not split successfully, move your mouse cursor over the postion where you want to split and press 'b'.
+    Close the selected boundary.<br>
 
-(5) e
--
-Press 'e' to enable or disable the edge fragments showing.
+3. MOUSE WHEEL SCROLL<br>
 
-(6) MOUSE MIDDLE BUTTON CLICK
--
-Click mouse middle button to finish the closed boundary labeling.
+    Zoom in/out the image.<br>
+
+4. "A"<br>
+
+    Switch between "selecting" and "drawing" mode.<br>
+
+5. "B"<br>
+
+    Break edge fragments at the pixel where mouse cursor is located.<br>
+
+6. "E"<br>
+
+    Enable or disable showing of detected edge fragments.<br>
+
+7. "F"<br>
+
+    Unselect the last selected edge fragment or segment.<br>
+
+8. "ESC"<br>
+
+    Exit ByLabel.<br>
 
 CONTACTS
 ====
