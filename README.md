@@ -29,35 +29,35 @@ Go to the root folder ByLabel, open bylabel.cfg:<br>
 
 1. `multi_class`     #indicate the number of to-be-annotated classes<br>
 
-    "0"     binary classes annotation.<br>
+    `"0"`     binary classes annotation.<br>
 
-    "1"     multiple classes annotation.<br>
+    `"1"`     multiple classes annotation.<br>
 
 2. `source_type`     #indicate the type of to-be-annotated files<br>
 
-    "1"     Images (All formats that supported by OpenCV such as JPG, PNG, BMP, TIF and MPEG).<br>
+    `"1"`     Images (All formats that supported by OpenCV such as JPG, PNG, BMP, TIF and MPEG).<br>
 
-    "2"     Video (All formats that supported by OpenCV such as MP4 and AVI).<br>
+    `"2"`     Video (All formats that supported by OpenCV such as MP4 and AVI).<br>
 
 3. `input_path`     #set the path of source images/video<br>
 
-     If "souce_type" is "1", it should be the folder name of images, such as "./Test/images".<br>
+     If `"souce_type"` is `"1"`, it should be the folder name of images, such as `"./Test/images"`.<br>
 
-     If "souce_type" is "2", it should be the full path and name of the video, such as "./Test/demo.avi".<br>
+     If `"souce_type"` is `"2"`, it should be the full path and name of the video, such as `"./Test/demo.avi"`.<br>
 
 4. `output_path`     #set the path of outputs<br>
 
-     Such as "./Test/annotation". If the folder "annotation" does not exit, the tool will create a new folder named as "annotation".<br>
+     Such as `"./Test/annotation"`. If the folder `"annotation"` does not exit, the tool will create a new folder named as `"annotation"`.<br>
 
 5. `simple_shape`     #indicate the shape complexity of to-be-annotated objects<br>
 
-    "0"     Target objects with multiple boundaries.<br>
+    `"0"`     Target objects with multiple boundaries.<br>
 
-    "1"     Target objects with single boundary.<br>
+    `"1"`     Target objects with single boundary.<br>
 
 6. `start_idx`     #indicate the starting index of to-be-annotated images<br>
 
-     This is used to neglect the first "start_idx" images/frames.<br>
+     This is used to neglect the first `"start_idx"` images/frames.<br>
 
 ANNOTATION OPERATIONS
 ====
