@@ -22,7 +22,7 @@ RUN
 
 Go to the root folder *ground-truth-labeling* and run: ./GDTL
 
-ANNOTATION configurations
+ANNOTATION CONFIGURATIONS
 ====
 
 Go to the root folder ByLabel, open bylabel.cfg:<br>
@@ -59,7 +59,7 @@ Go to the root folder ByLabel, open bylabel.cfg:<br>
 
      This is used to neglect the first "start_idx" images/frames.<br>
 
-ANNOTATION Operations
+ANNOTATION OPERATIONS
 ====
 Mouse and keyboard operations of ByLabel:<br>
 
@@ -95,7 +95,7 @@ Mouse and keyboard operations of ByLabel:<br>
 
     Exit ByLabel.<br>
 
-Outputs
+OUTPUTS
 ====
 Annotation are outputed in following seven folders:<br>
 
