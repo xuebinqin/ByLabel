@@ -35,9 +35,9 @@ Go to the root folder ByLabel, open bylabel.cfg:<br>
 
 2. `source_type`     #indicate the type of to-be-annotated files<br>
 
-    `"1"`     Images (All formats that supported by OpenCV such as JPG, PNG, BMP, TIF and MPEG).<br>
+    `"1"`     Images (All image formats that supported by OpenCV such as JPG, PNG, BMP, TIF and MPEG).<br>
 
-    `"2"`     Video (All formats that supported by OpenCV such as MP4 and AVI).<br>
+    `"2"`     Video (All video formats that supported by OpenCV such as MP4 and AVI).<br>
 
 3. `input_path`     #set the path of source images/video<br>
 
