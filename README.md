@@ -109,24 +109,24 @@ The folder "annotation" is assigned by users in "bylabel.cfg", other names are a
     (1) For each annotated image, there will be a corresponding class-based colorful edge map and a .txt file in this folder.<br>
 
     (2) In a color map, each class is assigned a unique color. The .txt file records the objects' class names and their color code as follows:<br>
-"2<br>
-cup 185 185 175<br>
-candy 165 185 115"<br>
+`"2`<br>
+`cup 185 185 175`br>
+`candy 165 185 115"`<br>
 The number in the first line denotes the annotated classes of its' corresponding image.<br>
 
     (3) There is another file named as "classesColor.txt" which records those class names and their corresponding color codes as follows:<br>
-"4<br>
-cup 185 185 175<br>
-candy 165 185 115<br>
-scissors 195 185 195<br>
-bowl 205 185 195"<br>
+`"4`<br>
+`cup 185 185 175`<br>
+`candy 165 185 115`<br>
+`scissors 195 185 195`<br>
+`bowl 205 185 195"`<br>
 The number in the first line denotes the totally annotated classes in all of the images.<br>
 
 3. `edge_map_instances`<br>
     (1) For each annotated image, there will be a corresponding instance-based colorful edge map and a .txt file in this folder.<br>
 
     (2) In a color map, each object instance is assigned a unique color. The .txt file records those objects' class names and their corresponding color codes as follows:<br>
-"4<br>
+`"4<br>
 cup 155 185 175<br>
 cup 155 185 225<br>
 cup 155 185 115<br>
@@ -134,7 +134,7 @@ cup 155 185 195<br>
 candy 155 185 125<br>
 candy 155 185 145<br>
 candy 155 185 135<br>
-candy 155 185 165"<br>
+candy 155 185 165"`<br>
 The number in the first line denotes the totally annotated objects in this image.<br>
 
 4. `region_map_classes`<br>
@@ -147,17 +147,17 @@ cup_candy_classes<br>
 6. `text_ EF_pixels`<br>
      For each annotated image, there will be a .txt file in this folder. Each line of a .txt file describes one edge fragment:<br>
 
-     "n<br>
+     `"n<br>
       [edge_fragment_id] [point1.x] [point1.y] [point2.x] [point2.y] ... [pointn.x] [pointn.y]<br>
       [edge_fragment_id] [point1.x] [point1.y] [point2.x] [point2.y] ... [pointn.x] [pointn.y]<br>
-      ......"<br>
+      ......"`<br>
 
      The "n" in the first line indicates the total number of detected edge fragments.<br>
 
 7. `text_shape_pixels`<br>
     For each annotated image, there will be a .txt file in this foler. Each line of a .txt file describes the information of a selected/drawn edge fragment:<br>
 
-    "# [object_id] [class_name] [boundaries_number] [boundary_id] [fragments_number] [edge_fragment_id] [fragment_type] [point1.x] [point1.y] [point2.x] [point2.y] ... [pointm.x] [pointm.y]"<br>
+    `"# [object_id] [class_name] [boundaries_number] [boundary_id] [fragments_number] [edge_fragment_id] [fragment_type] [point1.x] [point1.y] [point2.x] [point2.y] ... [pointm.x] [pointm.y]"`<br>
 
 CONTACTS
 ====

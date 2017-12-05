@@ -41,23 +41,23 @@ Go to the root folder ByLabel, open bylabel.cfg:<br>
 
 3. `input_path`     #set the path of source images/video<br>
 
-     If `"souce_type"` is `"1"`, it should be the folder name of images, such as `"./Test/images".<br>
+     If `"souce_type"` is `"1"`, it should be the folder name of images, such as `"./Test/images"`.<br>
 
-     If "souce_type" is "2", it should be the full path and name of the video, such as "./Test/demo.avi".<br>
+     If `"souce_type"` is `"2"`, it should be the full path and name of the video, such as `"./Test/demo.avi"`.<br>
 
 4. `output_path`     #set the path of outputs<br>
 
-     Such as "./Test/annotation". If the folder "annotation" does not exit, the tool will create a new folder named as "annotation".<br>
+     Such as `"./Test/annotation"`. If the folder `"annotation"` does not exit, the tool will create a new folder named as `"annotation"`.<br>
 
 5. `simple_shape`     #indicate the shape complexity of to-be-annotated objects<br>
 
-    "0"     Target objects with multiple boundaries.<br>
+    `"0"`     Target objects with multiple boundaries.<br>
 
-    "1"     Target objects with single boundary.<br>
+    `"1"`     Target objects with single boundary.<br>
 
 6. `start_idx`     #indicate the starting index of to-be-annotated images<br>
 
-     This is used to neglect the first "start_idx" images/frames.<br>
+     This is used to neglect the first `"start_idx"` images/frames.<br>
 
 ANNOTATION OPERATIONS
 ====
@@ -109,17 +109,17 @@ The folder "annotation" is assigned by users in "bylabel.cfg", other names are a
     (1) For each annotated image, there will be a corresponding class-based colorful edge map and a .txt file in this folder.<br>
 
     (2) In a color map, each class is assigned a unique color. The .txt file records the objects' class names and their color code as follows:<br>
-"2<br>
-cup 185 185 175<br>
-candy 165 185 115"<br>
+`"2`<br>
+`cup 185 185 175`br>
+`candy 165 185 115"`<br>
 The number in the first line denotes the annotated classes of its' corresponding image.<br>
 
     (3) There is another file named as "classesColor.txt" which records those class names and their corresponding color codes as follows:<br>
-"4<br>
-cup 185 185 175<br>
-candy 165 185 115<br>
-scissors 195 185 195<br>
-bowl 205 185 195"<br>
+`"4`<br>
+`cup 185 185 175`<br>
+`candy 165 185 115`<br>
+`scissors 195 185 195`<br>
+`bowl 205 185 195"<br>
 The number in the first line denotes the totally annotated classes in all of the images.<br>
 
 3. `edge_map_instances`<br>
