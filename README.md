@@ -8,7 +8,7 @@ Users do not have to set these libriaries up, since this tool has been compiled 
 This implementation is based on Opencv 2.4.9(3.1.0), and ubuntu 14.04 64 bit.</br>
 
 The edge detector used here is EdgeDrawing(EDLib.h) which is proposed in 
-"C. Topal, C. Akinlar, Edge Drawing: A Combined Real-Time Edge and Segment Detector,” Journal of Visual Communication and Image Representation, 23(6), 862-872, 2012." 
+`"C. Topal, C. Akinlar, Edge Drawing: A Combined Real-Time Edge and Segment Detector,” Journal of Visual Communication and Image Representation, 23(6), 862-872, 2012."` 
 and can be downloaded from http://ceng.anadolu.edu.tr/CV/downloads/downloads.aspx. We include the lib in the root directory. It is worth to note that we are using the 64 bit ubuntu version of Edge Drawing. We sugggest to test our algorithm on a 64bit Ubuntu OS.
 
 INSTALLATION
