@@ -20,7 +20,7 @@ The code has already been compiled.
 RUN
 ====
 
-Go to the root folder *ground-truth-labeling* and run: ./GDTL
+Go to the root folder *ground-truth-labeling* and run: ./GDTL<br>
 Demo video: https://youtu.be/E89HJ9y4eyI
 
 ANNOTATION CONFIGURATIONS
