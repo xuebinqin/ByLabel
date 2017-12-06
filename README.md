@@ -21,6 +21,7 @@ RUN
 ====
 
 Go to the root folder *ground-truth-labeling* and run: ./GDTL
+Demo video: https://youtu.be/E89HJ9y4eyI
 
 ANNOTATION CONFIGURATIONS
 ====
