@@ -14,13 +14,13 @@ and can be downloaded from http://ceng.anadolu.edu.tr/CV/downloads/downloads.asp
 INSTALLATION
 ====
 
-Just Download the code: *git clone https://github.com/NathanUA/ground-truth-labeling.git*</br>
+Just Download the code: *git clone https://github.com/NathanUA/ByLabel.git*</br>
 The code has already been compiled.
 
 RUN
 ====
 
-Go to the root folder *ground-truth-labeling* and run: ./GDTL<br>
+Go to the root folder *ByLabel* and run: ./bylabel<br>
 Demo video: https://youtu.be/E89HJ9y4eyI
 
 ANNOTATION CONFIGURATIONS
