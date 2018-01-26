@@ -21,6 +21,7 @@ RUN
 ====
 
 Go to the root folder *ByLabel* and run: ./bylabel<br>
+Tutorial page: http://webdocs.cs.ualberta.ca/~vis/bylabel/
 Demo video: https://youtu.be/E89HJ9y4eyI
 
 ANNOTATION CONFIGURATIONS
